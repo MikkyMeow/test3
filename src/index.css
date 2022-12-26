@@ -1,0 +1,13 @@
+:root {
+  --darkPrimary: #22252b;
+  --darkSecondary: #232832;
+}
+
+body {
+  margin: 0;
+  background-color: var(--darkPrimary);
+}
+
+.App {
+  padding: 24px;
+}

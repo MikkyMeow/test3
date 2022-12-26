@@ -1,0 +1,75 @@
+.root {
+  display: flex;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  background-color: var(--darkSecondary);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  color: #cac7c7;
+}
+
+.img {
+  width: 200px;
+  margin-right: 24px;
+}
+
+.img img {
+  width: inherit;
+}
+
+.info {
+  width: 480px;
+}
+
+.info h2 {
+  margin: 0 0 12px;
+}
+
+.root .tags {
+  margin: 0 0 12px;
+  padding: 0;
+  justify-content: flex-start;
+}
+
+.description {
+  color: #cac7c7;
+}
+
+.other {
+  margin-left: auto;
+  width: 192px;
+  position: relative;
+  text-align: right;
+}
+
+.stock {
+  margin: 0;
+}
+
+.priceContainer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.newPrice {
+  font-size: 20px;
+  margin: 0;
+  margin-top: auto;
+}
+
+.oldPrice {
+  font-size: 16px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .root {
+    flex-wrap: wrap;
+  }
+
+  .priceContainer {
+    position: static;
+  }
+}

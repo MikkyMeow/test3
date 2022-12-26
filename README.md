@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Task description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Use UI theme (https://developers.grafana.com/ui/latest/index.html?path=/story/docs-overview-intro--page) and API code sample (https://dummyjson.com/products) and create a page to display data in tabular format using UI theme
+For rating column please add horizontal bar or number based star rating like how amazon shows stars in their review.
 
 ## Available Scripts
 
